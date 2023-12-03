@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-color: #360369;
+  gap: 40px;
+}
+section > h2 {
+  width: 1311px;
+  height: 50px;
+  padding-top: 20px;
+  left: 66px;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+}
+section > h3 {
+  width: 1311px;
+  height: 80px;
+  padding-top: 20px;
+  left: 66px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  padding-left: 30px;
+}
+.loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 60px;
+  top: 231px;
+  padding-top: 30px;
+  left: 66px;
+  border-radius: 10px;
+  background-color: #270846;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+#map1 {
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#map {
+  height: 400px;
+  width: 97vw;
+}
+footer > h2 {
+  width: 912px;
+  height: 86px;
+  top: 1315px;
+  left: 66px;
+  font-family: Montserrat;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #360369;
+  padding-left: 30px;
+}
+.row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  width: 80vw;
+  height: 150px;
+  padding-left: 30px;
+}
+.col1 {
+  width: fit-content;
+  padding-inline: 10px;
+  height: 82px;
+  top: 1445px;
+  left: 66px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background-color: #270846;
+}
+.col2 {
+  width: fit-content;
+  padding-inline: 10px;
+  height: 82px;
+  top: 1445px;
+  left: 66px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  background-color: #270846;
+}

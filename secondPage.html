@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./secondPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <section>
+        <h2>Welcome To The Weather App</h2>
+        <h3>Here is your current location</h3>
+        <div style="display: flex; gap: 40px; padding-left: 30px;">
+            <div class="loc">Lat : <span id="lat"></span></div>
+            <div class="loc">Long : <span id="long"></span> </div>
+        </div>
+        <div id="map1">
+            <div id="map"></div>
+        </div>
+    </section>
+    <footer>
+        <h2>Your Weather Data</h2>
+        <div class="row">
+            <div class="col1" id="location"></div>
+            <div class="col1" id="windSpeed"></div>
+            <div class="col1" id="humidity"></div>
+        </div>
+        <div class="row">
+            <div class="col2" id="timeZone"></div>
+            <div class="col2" id="pressure"></div>
+            <div class="col2" id="windDir"></div>
+        </div>
+        <div class="row">
+            <div class="col1" id="uvIndex"></div>
+            <div class="col1" id="feelsLike"></div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

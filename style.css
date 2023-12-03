@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #360369;
+  border: 3px solid #fb23bb;
+}
+main > h1 {
+  width: 692.27px;
+  height: 144px;
+  top: 299px;
+  left: 518px;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 122px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+main > button {
+  width: 492px;
+  height: 58px;
+  top: 478px;
+  left: 618px;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+main::-webkit-scrollbar {
+    display: none;
+  }
